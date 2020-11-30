@@ -235,3 +235,50 @@
     }
   }
   
+  @media only screen and (max-width: 1024px) {
+    .JokeList-title {
+      display: block;
+      font-size: 29px;
+    }
+    .JokeList {
+      width: 100%;
+      height: 100%;
+    }
+    .JokeList-sidebar {
+      display: flex;
+    }
+    .JokeList-jokes {
+      height: 100%;
+    }
+    .JokeList-getmore {
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .JokeList-title {
+      display: block;
+      font-size: 17px;
+    }
+    .JokeList {
+      width: 100%;
+      height: 100%;
+    }
+    .JokeList-sidebar {
+      display: flex;
+    }
+    .JokeList-jokes {
+      height: 100%;
+    }
+    .JokeList-getmore {
+      border-radius: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 5rem;
+    }
+  }
